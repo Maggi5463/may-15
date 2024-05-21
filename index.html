@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function hello(){
+    a=10;
+    b=20;
+    return (a+b);
+}//1st sum
+console.log(hello());
+function Hi(){
+    return "yellow";
+}
+ var d= Hi
+ var e=d()
+ console.log(e);
+ console.log(d);
+function a() {
+    var a = prompt("Enter the number of minutes:");
+    return a * 60;  
+}
+console.log(a());//takes an integer minutes and converts it to seconds.(second sum)
+function incrementnumber(number){
+   return number+1;
+}//3rd sum
+let result = incrementnumber(5)
+console.log(result);// takes a number as an argument, increments the number by +1 and returns the result.
+ function age(){
+    var age=prompt("Enter the age:");
+    return age*365;
+ }
+ console.log(age());//4t sum
+
+  function power(){
+    var voltage=prompt("Enter the voltage:");
+     var current=prompt("Enter the current:");
+     return power=voltage*current;
+  }
+  console.log(power());//power calculation(5th sum)
+
+function b(a){
+    return "something "+a;
+}
+console.log(b("example"));//6th question
+
+
+function c(a,b){
+    
+    if(a==10 || a+b==10){
+          return true;
+    }
+    else if(b==10){
+        return true;
+    }
+    else if(a==10){
+          return true; 
+    }
+    else{
+        return false;
+    }
+}
+console.log(c(1,1));//Create a function that takes two arguments. Both arguments are integers, a and b. Return true if one of them is 10 or if their sum is 10.(7th sum)
+
+
+
+function meg(a,b){
+    return a==10 || b==10 || a+b==10;
+}
+console.log(meg(5,5));//Create a function that takes two arguments. Both arguments are integers, a and b. Return true if one of them is 10 or if their sum is 10.(7th second method)
+
+
+function a(b,c) {
+    if(b="meg"){
+        return true;
+
+    }
+    else if(b="meg"){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(a("meg","meg"));//8th question
+
+function a() {
+    var string1 = prompt("Enter the first string:");
+    var string2 = prompt("Enter the second string:");
+    if (string1.length === string2.length) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(a());//8th question
+
+
+function a(){
+    var g = prompt("enter the string")
+    return("Greeting");
+}
+console.log(a());
+
+const greeting = (name) => {
+    return `Hello, ${name}!`;
+};
+console.log(greeting("Alice")); 
+console.log(greeting("Bob")); //9th question
+const b=null
+console.log(++b);
+
+    </script>
+</body>
+</html>
